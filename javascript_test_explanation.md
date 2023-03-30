@@ -34,7 +34,9 @@ Inside this callback function, you can define one or more test cases using the <
 ## it should return 3 when passed 1 and 2
 ```
   it('should return 3 when passed 1 and 2', function() {
-    assert.equal(sum(1, 2), 3);
+    result = sum(1, 2);
+
+    assert.equal(result, 3);
   });
 ```
 ### Summary

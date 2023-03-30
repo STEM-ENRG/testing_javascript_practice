@@ -391,7 +391,9 @@ Inside this callback function, you can define one or more test cases using the <
 <hr>
 <h2 id="it-should-return-3-when-passed-1-and-2">it should return 3 when passed 1 and 2</h2>
 <pre class="hljs"><code><div>  it('should return 3 when passed 1 and 2', function() {
-    assert.equal(sum(1, 2), 3);
+    result = sum(1, 2);
+
+    assert.equal(result, 3);
   });
 </div></code></pre>
 <h3 id="summary">Summary</h3>
