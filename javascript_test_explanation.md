@@ -1,3 +1,8 @@
+## Assert Documentation
+
+Here are the list of assertions available: https://nodejs.org/api/assert.html
+
+
 ## describe()
 ```
 describe('sum', function() { })
