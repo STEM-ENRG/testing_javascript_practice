@@ -1,7 +1,6 @@
 const assert = require('assert');
 const sum = require('./index');
 // 1. require rooster javascript file and set to variable
-const rooster = require('./rooster');
 
 describe('sum', function() {
   it('should return 3 when passed 1 and 2', function() {
